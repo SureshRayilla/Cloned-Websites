@@ -1,0 +1,103 @@
+nav #grey-nav{
+    height: 58px;
+    background-color: #f2f1ef;
+    padding: 0 18px 0 15px;
+   
+}
+#grey-nav-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: inherit;
+
+}
+#grey-nav-content-left{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    gap: 10px;
+}
+#grey-nav-content-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 15px;
+    font-weight: 100;
+
+}
+#grey-nav-content-right div >img{
+    height: 16px;
+    width: 18px;
+    vertical-align: middle;
+}
+#main-nav{
+    /* border: 2px solid; */
+    height: 105px;
+    position: sticky;
+    top: 0px;
+}
+#main-nav-content{
+    /* border: 2px solid; */
+    width: 80%;
+    height: inherit;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#main-nav-content-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+
+}
+#main-nav-content-left > img{
+    height: 65px;
+    /* width: 64px; */
+    vertical-align: middle;
+    margin-right: 30px;
+}
+#main-nav-content-left ul{
+    display: flex;
+    list-style: none;
+    align-items: center ;
+    gap: 40px;
+   
+}
+#main-nav-content-right{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+vertical-align: middle;
+
+}
+
+#main-nav-content-right img{
+    height: 30px;
+}
+#main-nav-content-right a{
+    font-size: 1rem;
+    text-decoration: none;
+}
+#main-nav-content-right a:hover{
+    
+    text-decoration: underline;
+}
+#main-nav-content-right button{
+    border: none;
+    background-color: #ffc400;
+    border-radius: 40px;
+    width: 100px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+}
+#main-nav-content-right button:hover{
+   background-color: #ffd64c;
+}
