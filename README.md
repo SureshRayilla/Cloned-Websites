@@ -1,2 +1,2 @@
-# Airbnb-Clone
-i have cloned front end of airbnb website
+# Clonoed some websites to get hands-on experience in building websites
+cloned website 1.airbnb
