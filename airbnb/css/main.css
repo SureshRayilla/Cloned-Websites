@@ -1,0 +1,283 @@
+@import url(./content.css);
+@import url(./footer.css);
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Airbnb Cereal VF, Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-serif;
+}
+main{
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    background-color: #fff;
+    z-index: 11;
+}
+#top-nav{
+    /* border: 5px solid; */
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#top-nav > div:nth-child(1) > svg > path:nth-child(1),#top-nav > div:nth-child(1) > svg > path:nth-child(2){
+    fill: #FF385C;  
+}
+#top-nav > div:nth-child(1) > svg{
+    fill: #FF385C;
+    /* margin-right: 400px; */
+}
+
+#search-bar{
+    width: 350px;
+    height: 50px;
+    border: 2px solid #f0ebeb;
+    border-radius: 40px;
+    margin-left: 300px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+#search-bar:hover{
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+#search-bar p{
+    font-size: 14px;
+    font-weight: 900px;
+    
+}
+#search-bar span{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#search-bar p+p+p{
+    font-weight: 100;
+}
+#search-bar button{
+    margin-left: 15px;
+    background-color: #FF385C;
+    border: none;
+    border-radius: 40px;
+    padding: 8px;
+}
+#search-bar > button > svg{
+    fill: #fff;
+}
+
+#right{
+    /* border: 2px solid; */
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 400px;
+    align-items: center;
+    gap: 15px;
+    text-wrap: nowrap;
+    height: 50px;
+}
+#right button{
+    height: inherit;
+    width: 90px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 40px;
+    padding: 5px;
+    border: none;
+    border: 2px solid #f7f7f7;  
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); 
+}
+#right button:hover{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+#right div p{
+    font-size: 14px;
+}
+#right div{
+    /* border: 2px solid; */
+    border-radius: 40px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    padding: 12px;
+    
+}
+#right div+div{
+    /* border: 2px solid; */
+    border-radius: 40px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    width: 40px;
+    
+}
+#right div:hover {
+    background-color: #f7f7f7;
+    /* height: inherit; */
+}
+#right button svg{
+    height: 10px;
+    width: 10px;
+}
+
+/* end of top nav*/
+#items-png{
+    height: 80px;
+    border-top: 2px solid #f7f7f7;
+    position: sticky;
+    top: 80px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.scrollable-tabs-container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.scrollable-tabs-container ul{
+    display: flex;
+    gap: 16px;
+    height: inherit;
+    align-items: center;
+    list-style: none;
+    overflow-x: scroll;
+    /* -ms-overflow-style:none; */
+    /* scrollbar-width: none; */
+
+}
+.scrollable-tabs-container ul::-webkit-scrollbar{
+    display: none;
+}
+#items-png > div > ul > li{
+    margin-right: 35px;
+    
+   
+}
+#items-png > div > ul > li > img{
+    height: 35px;
+    padding: 5px;
+    
+    
+    
+}
+#items-png > div > ul > li> p{
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+
+}
+#items-png > div > ul > li.active{
+    border-bottom:1px solid black;
+    
+  
+}
+/* .scrollable-tabs-container .right-arrow,
+.scrollable-tabs-container .left-arrow{
+    position: absolute;
+    height: 100%;
+    width: 100px;
+    top: 0;
+    display: none;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: center;
+    
+    
+    
+
+
+}
+.scrollable-tabs-container .right-arrow.active,
+.scrollable-tabs-container .left-arrow.active{
+    display: flex;
+    
+
+    
+}
+.scrollable-tabs-container .right-arrow{
+    right: 0;
+    border: 1px solid;
+    background: linear-gradient(to left , #fff 50%, transparent);
+    justify-content: flex-end;
+}
+.scrollable-tabs-container .right-arrow svg{
+    height: 100PX;
+}
+.scrollable-tabs-container .left-arrow{
+    background: linear-gradient(to right , #fff 30%, transparent);
+}
+.scrollable-tabs-container svg{
+    border-radius: 500%;
+  
+    border: 2px solid rgb(78, 72, 72);
+    cursor: pointer;
+   
+} */
+
+.scrollable-tabs-container svg:hover{
+    /* box-shadow: 10px 10px 10px 10px #5b5454; */
+}
+
+/**/
+.scrollable-tabs-container .right-arrow,
+.scrollable-tabs-container .left-arrow {
+  height: 25px; 
+  width: 25px; 
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.scrollable-tabs-container .right-arrow:hover,
+.scrollable-tabs-container .left-arrow:hover {
+  width: 29px; /* Slightly increase the size on hover */
+  height: 29px; /* Slightly increase the size on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Grey gradient shadow */
+}
+
+.scrollable-tabs-container .right-arrow svg,
+.scrollable-tabs-container .left-arrow svg {
+  width: 20px; /* Set the initial width for the SVG */
+  height: 20px; /* Set the initial height for the SVG */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.scrollable-tabs-container .right-arrow:hover svg,
+.scrollable-tabs-container .left-arrow:hover svg {
+  width: 24px; /* Slightly increase the arrow size on hover */
+  height: 24px; /* Slightly increase the arrow size on hover */
+}
+.scrollable-tabs-container .right-arrow.active,
+.scrollable-tabs-container .left-arrow.active{
+    display: flex;
+    
+
+    
+}
+.scrollable-tabs-container .right-arrow{
+    background: linear-gradient(to left , #fff 50%, transparent);
+    
+}
+
+
+
+
+
