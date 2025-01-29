@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+/* nav bar */
+nav{
+    background-color: #343535;
+    width: 100%;
+    padding: 16px;
+}
+nav>div>div>a>img{
+height: 36px;
+}
+.icon{
+    height: 1em;
+    color: #ebebeb;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icon:hover, .right>a:hover{
+    color: grey;
+}
+.left a{
+    vertical-align: middle;
+    margin: 4px 16px; 
+}
+svg.icon {
+    fill: currentColor;
+}
+.right>a, .right>img{
+    text-decoration: none;
+    color: #ebebeb;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    justify-content: center;
+    margin: 4px 16px; 
+    align-items: center; 
+}
+.left{
+    width: 50%;
+    display: inline;
+    align-content: center;
+}
+.right{
+    
+    display: inline;
+    float: right;
+    padding: 8px; 
+}
+.fa-circle{
+    font-size: 10px;
+    vertical-align: middle;
+    margin-left: 2px;
+}
+/* body */
+.background{
+    background-color: #454647;
+    
+}
+main{
+    margin: 0;
+    position: relative;
+    z-index: 0; 
+    background-color: #454647; /*doubt1*/
+}
+section{
+    width: 932px;
+}
+.text{
+    position: absolute;
+    top:140px;
+    z-index: 1;
+    color: #ebebeb ;
+    right: 200px;
+    
+}
+.text>div>h1{
+    color: #ebebeb;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: .41px;
+    margin: 0 0 32px;
+}
+body > main > section > div > h2{
+    color: #ebebeb;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: .2px;
+    margin: 0 0 80px;
+
+}
+
+.banner{
+    background: #d9643a;
+    padding: 8px 232px 8px 32px;
+    width: 100%;
+    z-index: 1;
+    
+    
+}
+body > main > div.banner > p:nth-child(1){
+   display: inline;
+   border-right: 2px solid #141515;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 0 8px 0 0;
+    padding: 0 8px 0 0;
+}
+body > main > div.banner > p:nth-child(2){
+    display: inline;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    
+ }
+ /* body > main > div.banner > p:nth-child(2) > svg > path{
+    color: #030303 ;
+    vertical-align: middle;
+ } */
+ body > main > div.banner > p:nth-child(2) > svg{
+    color: #030303 ;
+    vertical-align: middle;
+    height: 0.8em;
+ }
+ body > main > div.banner > p:nth-child(2) > svg > path:hover{
+    color: grey ;
+ }
+ body > main > div.banner > p:nth-child(2) > a{
+    color: #030303;
+}
+
+
+
+.aside{
+    height: 200px;
+    width: 200px;
+    background-color: #2ecc71;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+body > main > div.aside > div{
+    height: 100%;
+    width: 100%;
+    transform: rotate(-45deg);
+    position: absolute;/**/
+    background-color: #d9643a;
+}
+body > main > div.aside > div > a {
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 -12.8px;
+    padding: 25.6px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-decoration: none;
+   
+}
+/* end of body */
+/* footer */
+footer{
+    background: #242525;
+    color: #ebebeb;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+}
+footer>.content{
+    width: 100%;
+    display: inline;
+}
+footer > div > dl:nth-child(1) > dt > a > img{
+    width: 200px;
+}
+.content dl {
+    margin: 0px 16px 16px ;
+    display: inline-block;
+    padding: 32px 16px;
+    vertical-align: middle;
+    width: calc(35% - 200px);   
+    box-sizing: border-box;
+}
+
+.content{
+    padding: 32px 16px;
+    width: 90%;
+}
+footer .content dl dt {
+    color: #a6a6a6;
+    font-size: 14px;
+    margin: 0 0 16px;
+    text-transform: uppercase;
+}
+footer .content dl dd.social span {
+    border-right: 1px solid #a6a6a6;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 8px 0 0;
+    padding: 0 16px 0 0;
+}
+footer .content dl dd a {
+    color: #ebebeb;
+    text-decoration: none; 
+}
+footer .content dl dd a:hover{
+    color: rgb(217, 100, 58);
+}
+body > footer > div > dl> dd{
+    margin: 0 0 4px;
+}
+.social a{
+    margin-right: 8px;
+    vertical-align: middle;
+    font-size: 22px;
+}
+.break{
+    height: 12px;
+}
